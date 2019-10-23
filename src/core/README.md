@@ -1,4 +1,4 @@
-## greetName({name})
+## uppercase(text)
 
 This non-component function can also have a playground to test it out.
 
@@ -7,10 +7,10 @@ I'm too lazy to render my own let alone expect it to be maintained.
 https://github.com/styleguidist/react-styleguidist/issues/1218
 
 ```js
-import {greetName} from './greeting.js';
+import {uppercase} from './string.js';
 
-const name = "World";
-const value = greetName({name});
+const text = "hello world";
+const value = uppercase(text);
 
 <>{value}</>
 ```
